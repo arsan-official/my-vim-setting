@@ -1,0 +1,4 @@
+set ctags for php  to generate tags files for class, interface, constant declaration and function ;
+ctags -R --php-kinds=cidf --exclude=.git --exclude=assets --exclude=vendor
+
+
